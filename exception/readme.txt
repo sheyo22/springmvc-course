@@ -1,0 +1,10 @@
+异常处理步骤：
+1.新建maven项目；
+2.加入依赖；
+3.新建自定义异常和其子类
+4.在controller中抛出异常
+5.创建一个普通类作为全局异常处理类
+    在类上加入@ControllerAdvice
+    在类中定义方法，方法上加入@ExceptionHandler
+6.创建处理异常的视图页面
+7.在springmvc中加入扫描@ControllerAdvice的组件扫描器，声明注解驱动

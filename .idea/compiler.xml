@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exception" />
+        <module name="interceptor" />
+        <module name="hello-springmvc" />
+        <module name="ssm" />
+        <module name="return" />
+        <module name="request-mapping" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exception" target="1.8" />
+      <module name="hello-springmvc" target="1.8" />
+      <module name="interceptor" target="1.8" />
+      <module name="request-mapping" target="1.8" />
+      <module name="request-mapping (1)" target="1.8" />
+      <module name="return" target="1.8" />
+      <module name="ssm" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

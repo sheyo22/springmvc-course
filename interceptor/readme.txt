@@ -1,0 +1,12 @@
+异常处理步骤：
+1.新建maven项目；
+2.加入依赖；
+3.创建Controller类
+4.创建普通类
+    1.实现HandlerInterceptor接口
+    2.实现接口方法
+5.创建jsp
+6.创建配置文件
+    1.组件扫描器
+    2.声明拦截器，指定拦截的url请求
+7.在springmvc中加入扫描@ControllerAdvice的组件扫描器，声明注解驱动
