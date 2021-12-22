@@ -6,6 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Mycontroller {
+    private String id;
     @RequestMapping(value = "/some.do")
     public ModelAndView doSome(){
         ModelAndView mv =new ModelAndView();
